@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(#d002f4, #2202f6
+    );
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.main {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 3%;
+    display: inline-block;
+    
+}
+input {
+    color: #fff;
+    background-color: #3e3d3e;
+    padding: 15px;
+    margin: 2px;
+    outline: none;
+    cursor: pointer;
+}
+input:active {
+    color: #000000;
+    background-color: rgb(255, 119, 0);
+}
+
+.text {
+    width: 130px;
+    height: 26px;
+    border-radius: 5%;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.text-clear {
+    width: 24px;
+    height: 26px;
+    text-align: center;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    
+}
+
+.num {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+.maincolor {
+    background-color: #2a2a2a;
+}
+ 
+.sinal {
+    background-color: rgb(230, 18, 191);
+}
